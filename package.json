@@ -1,0 +1,14 @@
+{
+  "name": "test_dd2",
+  "version": "1.0.0",
+  "description": "Test Driven Development Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
