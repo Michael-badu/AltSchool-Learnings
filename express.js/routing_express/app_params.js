@@ -30,7 +30,7 @@ const posts = [
     },
 ]
 
-app.use(bodyParser.json());
+app.use(bodyParser.json()); //so that any parameter passed by the body is collected by the request
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
